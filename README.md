@@ -6,11 +6,11 @@ Please check the official laravel installation guide for server requirements bef
 
 Clone the repository
 
-    git clone git@github.com:zulhusni2003/Task-List.git
+    git clone git@github.com:zulhusni2003/Book-Reviews.git
 
 Switch to the repo folder
 
-    cd Task-List
+    cd Book-Reviews
 
 Install all the dependencies using composer
 
@@ -36,8 +36,8 @@ You can now access the server at http://localhost:8000
 
 **TL;DR command list**
 
-    git clone git@github.com:zulhusni2003/Task-List.git
-    cd Task-List
+    git clone git@github.com:zulhusni2003/Book-Reviews.git
+    cd Book-Reviews
     composer install
     cp .env.example .env
     php artisan key:generate
@@ -66,8 +66,8 @@ Run the database seeder and you're done
 To install with [Docker](https://www.docker.com), run following commands:
 
 ```
-git clone git@github.com:zulhusni2003/Task-List.git
-cd Task-List
+git clone git@github.com:zulhusni2003/Book-Reviews.git
+cd Book-Reviews
 cp .env.example.docker .env
 docker run -v $(pwd):/app composer install
 cd ./docker
@@ -81,4 +81,4 @@ docker-compose exec php php artisan serve --host=0.0.0.0
 
 ## Usage
 
-Once the installation is complete, you can use the task list application to manage your tasks.
+Once the installation is complete, you can use the book reviews application.
