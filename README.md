@@ -4,7 +4,7 @@
 
 Clone the repository
 
-    git clone git@github.com:zulhusni2003/Book-Reviews.git
+    git clone https://github.com/MuhammadZulhusni/Book-Reviews.git
 
 Switch to the repo folder
 
